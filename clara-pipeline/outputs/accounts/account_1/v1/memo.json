@@ -1,0 +1,30 @@
+{
+    "account_id": "account_1",
+    "company_name": "Abc Fire",
+    "business_hours": {
+        "days": "Mon-Fri",
+        "start": "9:00",
+        "end": "17:00",
+        "timezone": "EST"
+    },
+    "office_address": "Not Discussed",
+    "services_supported": [
+        "sprinkler repair",
+        "alarm maintenance"
+    ],
+    "emergency_definition": [
+        "water leak",
+        "alarm triggered",
+        "fire emergency"
+    ],
+    "emergency_routing_rules": "route to dispatch",
+    "non_emergency_routing_rules": "collect details and assure follow-up",
+    "call_transfer_rules": "ask if they need anything else then close",
+    "integration_constraints": "no constraints discussed",
+    "after_hours_flow_summary": "Greet -> Confirm Emergency -> If Yes: Route -> If No: Collect Details -> Close",
+    "office_hours_flow_summary": "Greet -> Ask Purpose -> Collect Name/Phone -> Transfer -> Fallback -> Close",
+    "notes": "initial call generated via automated pipeline",
+    "questions_or_unknowns": [
+        "office address not provided"
+    ]
+}

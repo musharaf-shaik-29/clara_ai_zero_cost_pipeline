@@ -1,0 +1,4 @@
+Onboarding for Always On HVAC.
+We realized that our hours are actually 7 to 5.
+If transfer fails, tell them to call 911 immediately.
+Set timeout to 30 seconds.
